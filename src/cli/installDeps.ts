@@ -1,7 +1,7 @@
 import { PackageManger } from "../types.js";
 import { execa } from "execa";
 import ora from "ora";
-import log from "../libs/log.js";
+import logger from "../libs/logger.js";
 import inquirer from "inquirer";
 import chalk from "chalk";
 
@@ -85,13 +85,13 @@ export default async function installDependencies(
 
   const projectDir = process.cwd() + "/" + projectName;
 
-  log.info("\nInstalling dependencies...\n");
+  logger.info("\nInstalling dependencies...\n");
 
   const installation = await installationProcess(pkgManager, projectDir);
 
   (installation || ora()).succeed("Dependencies installed successfully!\n");
 
-  log.info("Enjoy your new project!\n");
+  logger.info("Enjoy your new project!\n");
 
   return;
 }

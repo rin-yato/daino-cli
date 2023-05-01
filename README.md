@@ -20,6 +20,7 @@ Example usage for common cli features will be added soon!
 - [Chalk](https://www.npmjs.com/package/chalk)
 - [Chalk Animation](https://www.npmjs.com/package/chalk-animation)
 - [Ora](https://www.npmjs.com/package/ora)
+- [Figlet](https://www.npmjs.com/package/figlet)
 
 ## Todo
 

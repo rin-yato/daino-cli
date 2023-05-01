@@ -1,7 +1,7 @@
 {
   "name": "daino",
   "version": "0.0.2",
-  "description": "",
+  "description": "Daino is a CLI boilerplate for Typescript",
   "main": "index.js",
   "bin": "./.dist/index.js",
   "type": "module",
@@ -10,8 +10,15 @@
     "build": "tsc",
     "start": "node ./.dist/index.js"
   },
-  "keywords": ["CLI boilerplate", "CLI Typescript"],
+  "keywords": [
+    "CLI boilerplate",
+    "CLI Typescript"
+  ],
   "author": "RinYato",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rin-yato/daino-cli"
+  },
   "dependencies": {
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",

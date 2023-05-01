@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 import { PackageManger } from "../types.js";
-import log from "./log.js";
+import logger from "./logger.js";
 
 export default async function getPkgManager(): Promise<PackageManger> {
   const userAgent = process.env.npm_config_user_agent;
@@ -31,7 +31,7 @@ export default async function getPkgManager(): Promise<PackageManger> {
     pkgManager = selectedPkgManager;
   }
 
-  log.info(`Using ${pkgManager} as package manager\n`);
+  logger.info(`Using ${pkgManager} as package manager\n`);
 
   return pkgManager;
 }

@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-const log = {
+const logger = {
   info: (message: string) => {
     console.log(chalk.blueBright(message));
   },
@@ -15,4 +15,4 @@ const log = {
   },
 };
 
-export default log;
+export default logger;
