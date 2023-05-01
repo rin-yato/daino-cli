@@ -20,6 +20,7 @@ Example usage for common cli features will be added soon!
 - [Chalk](https://www.npmjs.com/package/chalk){:target="\_blank"}
 - [Chalk Animation](https://www.npmjs.com/package/chalk-animation){:target="\_blank"}
 - [Ora](https://www.npmjs.com/package/ora){:target="\_blank"}
+- <a href="https://www.npmjs.com/package/ora" target="_blank">Ora</a>
 
 ## Todo
 
