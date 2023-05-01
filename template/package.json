@@ -1,0 +1,26 @@
+{
+  "name": "rinyato",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./.dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node ./.dist/index.js",
+    "build": "tsc",
+    "start": "node ./.dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^5.0.4"
+  }
+}
